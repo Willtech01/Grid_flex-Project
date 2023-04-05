@@ -1,0 +1,116 @@
+@media screen and (max-width: 768px) {
+  section {
+    display: grid;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: monospace;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(206, 69, 92);
+    background-color: pink;
+    height: 10vh;
+    margin-top: -15px;
+    border-radius: 10px;
+  }
+  p {
+    text-align: center;
+    margin-left: 5px;
+  }
+  .cloud {
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    box-shadow: 10 10 20 gray;
+    text-align: center;
+    border: none;
+    box-shadow: -3px -3px 10px;
+    height: 250px;
+  }
+  .prog-data {
+    border-radius: 10px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    box-shadow: -3px -3px 10px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  a {
+    color: white;
+    background-color: rgb(206, 69, 92);
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: gray;
+  }
+  section a {
+    width: 50%;
+    height: 40px;
+    padding: 2px 2px;
+    border-radius: 5px;
+  }
+}
+
+@media ( min-width: 769px) and (max-width: 1700px)
+{
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: center;
+        margin-top: 150px;
+        font-family: monospace;
+    }
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(206, 69, 92);
+        background-color: green;
+        height: 10vh;
+        margin-top: -15px;
+        border-radius: 10px;
+    }
+    p{
+    text-align: center;
+    margin-left: 5px;
+    }
+    .cloud{
+      border-radius: 10px;
+      width: 300px;
+      border: 1px solid gray;
+      margin-top: -30px;
+    box-shadow: 10 10 20 gray;
+    text-align: center;
+    border: none;
+    box-shadow: -3px -3px 10px;
+    }
+    .prog-data{
+    border-radius: 10px;
+    width: 290px;
+    border: none;
+    text-align: center;
+    box-shadow: -3px -3px 10px;
+    height: 210px;
+    }
+    a{
+      color: white;
+      background-color: rgb(206, 69, 92);
+      height: 30px;
+      font-size: 20px;
+    text-decoration: none;
+    }
+    a:hover{
+      background-color: gray;
+    }
+    section a{
+      width: 50%;
+      height: 40px;
+      padding: 2px 2px;
+      border-radius: 5px;
+    }
+}
